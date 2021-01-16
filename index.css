@@ -1,0 +1,248 @@
+body {
+  margin: 0px;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+  padding:0 0;
+}
+
+.container{
+  /*width: 1170px;*/
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+
+.top-title{
+  border-bottom: solid 1px grey;
+  text-align: center;
+}
+
+.top-wrapper{
+  height:auto;
+  width:100%;
+  top:0px;
+  display:block;
+  background-size:cover;
+}
+
+.boxing a{
+  color:black;
+  font-family:serif;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: 1.5s;
+}
+.boxing a:hover{
+  background-color: grey;
+}
+
+@media(min-width:801px){
+  .top-title a{
+    font-family:serif;
+    font-size:30px;
+    letter-spacing:5px;
+  }
+  .slide img{
+    width:800px;
+    height:auto;
+    border-radius:5px;
+    margin:0 auto;
+  }
+  .contents{
+    width:800px;
+    heihgt:200px;
+    font-size: 25px;
+    font-weight: 1300;
+  }
+  .contents li{
+    line-height: 100px;
+  }
+  .contents a{
+    display: block;
+    width: 100%
+  }
+}
+@media(max-width:800px){
+  .top-title a{
+    font-family:serif;
+    font-size:30px;
+    letter-spacing:5px;
+  }
+  .slides{
+    padding:0px;
+  }
+  .slide img{
+    width:600px;
+    height:auto;
+    border-radius:5px;
+    margin:0 auto;
+  }
+  .contents{
+    width:600px;
+    heihgt:150px;
+    font-size:20px;
+    font-weight: 800;
+  }
+  .contents li{
+    line-height: 75px;
+  }
+  .contents a{
+    display: block;
+    width: 100%
+  }
+}
+
+@media(max-width:600px){
+  .top-title a{
+    font-family:serif;
+    font-size:30px;
+    letter-spacing:5px;
+  }
+  .slides{
+    padding:0px;
+  }
+  .slide img{
+    width:415px;
+    height:auto;
+    border-radius:5px;
+    margin:0 auto;
+  }
+  .contents{
+    width:415px;
+    height:120px;
+    font-size:15px;
+  }
+  .contents li{
+    line-height: 60px;
+  }
+  .contents a{
+    display: block;
+    width: 100%
+  }
+}
+
+@media(max-width:415px){
+  .top-title a{
+    font-family:serif;
+    font-size:20px;
+    letter-spacing:5px;
+  }
+  .slides{
+    padding:0px;
+  }
+  .slide img{
+    width:280px;
+    height:auto;
+    border-radius:5px;
+    margin:0 auto;
+  }
+  .contents{
+    width:280px;
+    height:80px;
+    font-size: 13px;
+  }
+  .contents li{
+    line-height: 40px;
+  }
+  .contents a{
+    display: block;
+    width: 100%
+  }
+}
+
+@media(max-width:321px){
+  .top-title a{
+    font-family:serif;
+    font-size:15px;
+    letter-spacing:5px;
+  }
+  .slides{
+    padding:0px;
+  }
+  .slide img{
+    width:230px;
+    height:auto;
+    border-radius:5px;
+    margin:0 auto;
+  }
+  .contents{
+    width:230px;
+    height:80px;
+    font-size: 12px;
+  }
+  .contents li{
+    line-height: 40px;
+  }
+  .contents a{
+    display: block;
+    width: 100%
+  }
+}
+
+.contents{
+  display: flex;
+  /*height:200px;*/
+  flex-wrap: wrap;
+  margin:auto;
+  padding:0;
+}
+.contents li{
+  text-align: center;
+  /*line-height: 100px;*/
+  width:49%;
+  font-family:serif;
+  cursor: pointer;
+  /*background-color: #f8f8f8;
+  border:solid 1px #8a8a8a;*/
+  border-radius: 3px;
+  transition: 1.5s;
+}
+.list:hover{
+  background-color: #c1c1c1;
+}
+
+.blank1{
+  height:200px;
+  width:100%;
+  border-bottom: solid 1px grey;
+}
+
+.blank2{
+  height:50px;
+  width:100%;
+}
+.blank2 p{
+  padding-top:30px;
+  display:block;
+  text-align: center;
+  vertical-align: bottom;
+  font-size:8px;
+}
+.buttoms{
+  display:flex;
+  justify-content: center;
+}
+.buttoms a{
+  color: black;
+  display:block;
+  width:100%;
+}
+.buttoms li{
+  padding:0 10px;
+  cursor:pointer;
+  border-radius: 3px;
+  transition: 1.0s;
+}
+.buttom:hover{
+  background-color: #c1c1c1;
+}
+.buttom_active{
+  background-color: #c1c1c1;
+}

@@ -1,10 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head><!-- 裏設定エリアの開始 -->
-    <meta charset="utf-8"><!-- 文字化け防止 -->
-</head><!-- 裏設定エリアの終了 -->
- 
-<body><!-- 画面に表示されるエリアの開始 -->
-    Hello World！
-</body><!-- 画面に表示されるエリアの終了 -->
-</html>
+  <head>
+    <meta charset="utf-8">
+    <title>myhomepage</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
+    <div class = "top-wrapper">
+      <div class = "container">
+
+        <div class ="top-title">
+          <a>myhomepage</a>
+        </div>
+        <div class = "boxing">
+          <a href="http://www.nda.ac.jp/ed/boxing/boxing_homepage.html" target = "_blank">ボクシング部HPへ</a>
+        </div>
+
+        <ul class = "slides">
+          <li class = "slide"><img src = "photolog/index_images/photo1.jpg"></li>
+          <li class = "slide"><img src = "photolog/index_images/photo2.jpg"></li>
+          <li class = "slide"><img src = "photolog/index_images/photo3.jpg"></li>
+          <li class = "slide"><img src = "photolog/index_images/photo4.jpg"></li>
+          <li class = "slide"><img src = "photolog/index_images/photo5.jpg"></li>
+          <li class = "slide"><img src = "photolog/index_images/photo6.jpg"></li>
+        </ul>
+        <!--
+        <div class="index-btn-wrapper">
+          <div class="index-btn">1</div>
+          <div class="index-btn">2</div>
+          <div class="index-btn">3</div>
+          <div class="index-btn">4</div>
+        </div>
+      -->
+
+      </div>
+    </div>
+
+    <div class = "middle-wrapper">
+      <div class = "container">
+        <ul class = "contents">
+          <li class = "list"><a href="meigen/kotowaza.html">金言名句</a></li>
+          <li class = "list"><a href="photolog/photolog.html">photolog</a></li>
+          <li class = "list"><a href="programing/programing.html">programing</a></li>
+          <li class = "list"><a href="article/articles.html">工事中</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class = "footer">
+      <div class = "conteiner">
+        <div class = "blank1">
+        </div>
+        <div class = "blank2">
+          <ul class = "buttoms">
+            <li class = "buttom_active active"><a>ホーム</a></li>
+            <li class = "buttom"><a href="meigen/kotowaza.html">金言名句</a></li>
+            <li class = "buttom"><a href="photolog/photolog.html">photolog</a></li>
+            <li class = "buttom"><a href="programing/programing.html">programing</a></li>
+            <li class = "buttom"><a href="article/articles.html">工事中</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slides').slick({
+          accessibility:true,
+          autoplay:true,
+          autoplaySpeed:2000,
+          dots:true,
+          fade:true,
+        });
+      });
+    </script>
+    <script src = "script.js"></script>
+  </body>
