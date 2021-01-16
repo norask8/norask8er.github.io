@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+  padding:0 0;
+}
+li{
+  list-style: none;
+}
+
+table{
+  margin:auto;
+}
+
+.container{
+  /*width: 1170px;*/
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+
+.top-title{
+  border-bottom: solid 1px grey;
+}
+
+.top-wrapper{
+  height:auto;
+  width:100%;
+  top:0px;
+  display:block;
+  background-size:cover;
+}
+
+.top-title{
+  border-bottom: solid 1px grey;
+}
+.top-title a{
+  text-align: left;
+  transition: 1.5s;
+  border-radius: 3px;
+  padding:0 13px;
+}
+
+.top-title a:hover{
+  background-color: grey;
+}
+
+.top-title p{
+  font-family:serif;
+  font-size:30px;
+  letter-spacing:5px;
+  text-align: center;
+}
+
+.middle-wrapper{
+  text-align: center;
+}
+.slide{
+  display:none;
+}
+.manga{
+  display:none;
+}
+.active{
+  display:block;
+}
+.act{
+  display:block;
+}
+.index-btn{
+  display:inline-block;
+  cursor: pointer;
+  width:40px;
+  padding:6px 0;
+  margin:0 5px;
+  border-radius: 3px;
+  text-align: center;
+  transition: 1.5s;
+}
+.index-btn:hover{
+  background-color: grey;
+}
+.index-btn2{
+  display:inline-block;
+  cursor: pointer;
+  width:40px;
+  padding:6px 0;
+  margin:0 5px;
+  border-radius: 3px;
+  text-align: center;
+  transition: 1.5s;
+}
+.index-btn2:hover{
+  background-color: grey;
+}
+.codesource{
+  cursor:pointer;
+  border-radius: 3px;
+  text-align: center;
+  transition: 1.5s;
+  margin:10px 0 ;
+}
+.codesource:hover{
+  background-color: grey;
+}
+.url{
+  display:inline-grid;
+}
