@@ -43,15 +43,16 @@ li{
   background-color:#c1c1c1;
 }
 
-.middle-contents p{
-  font-size: 15px;
+.middle-contents a{
+  font-size: 20px;
+  font-weight: bold;
   display: block;
   text-align: center;
 }
-.middle-contents a{
+.middle-contents p{
   display:block;
   text-align: center;
-  font-weight: bold;
+  font-size:15px;
 }
 .middle-contents li{
   padding:20px 15px;
