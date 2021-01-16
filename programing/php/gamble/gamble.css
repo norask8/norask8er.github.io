@@ -1,0 +1,116 @@
+body {
+  font-family: Lato, 'Hiragino Kaku Gothic Pro', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #89949e;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+  padding:0 0;
+}
+
+h1{
+  font-family:fantasy;
+}
+h5{
+  font-size: 30px;
+}
+
+.contents{
+  text-align: center;
+}
+.contents p {
+  font-size: 25px;
+}
+
+.container{
+  /*width: 1170px;*/
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+
+.top-title{
+  border-bottom: solid 1px grey;
+  text-align: center;
+}
+
+.top-wrapper a{
+  text-align: left;
+  transition: 1.5s;
+  border-radius: 3px;
+  padding:0 13px;
+}
+
+.top-wrapper a:hover{
+  background-color: grey;
+}
+
+.team_image{
+  width:50%;
+}
+/*
+.team_name{
+  font-size:15px;
+}
+*/
+.team-items {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team-item {
+  display: inline-block;
+  width: 40%;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.menu-item-image {
+  border-radius: 5px;
+}
+
+.menu-item span {
+  font-size: 16px;
+}
+
+.submit{
+  display: block;
+  text-align: center;
+}
+
+.submit input{
+  background-color: grey;
+}
+
+input {
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 60px;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  width: 160px;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 20px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
