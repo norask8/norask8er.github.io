@@ -12,6 +12,9 @@ ul{
   list-style: none;
   padding:0 0;
 }
+li{
+  list-style:none;
+}
 
 .container{
   /*width: 1170px;*/
@@ -71,8 +74,19 @@ ul{
 .contents h4{
   text-align: center;
 }
+.contents h1{
+  text-align: center;
+}
 .contents p{
   line-height: 2em;
+}
+.contents img{
+  display:block;
+  margin:auto;
+  width:50%;
+}
+.contents li{
+  margin:100px 0;
 }
 
   .blank1{
