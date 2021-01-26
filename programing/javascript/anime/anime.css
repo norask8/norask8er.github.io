@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+  padding:0 0;
+}
+li{
+  list-style: none;
+}
+
+table{
+  margin:auto;
+}
+
+.container{
+  /*width: 1170px;*/
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+
+.top-title{
+  border-bottom: solid 1px grey;
+}
+
+.top-wrapper{
+  height:auto;
+  width:100%;
+  top:0px;
+  display:block;
+  background-size:cover;
+}
+
+.top-title{
+  border-bottom: solid 1px grey;
+}
+.top-title a{
+  text-align: left;
+  transition: 1.5s;
+  border-radius: 3px;
+  padding:0 13px;
+}
+
+.top-title a:hover{
+  background-color: grey;
+}
+
+.top-title p{
+  font-family:serif;
+  font-size:30px;
+  letter-spacing:5px;
+  text-align: center;
+}
+
+.middle-wrapper{
+  text-align: center;
+}
+
+#svg_2,#svg_3{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 6s linear forwards;
+}
+
+#svg_8,#svg_9,#svg_10{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 8s linear 4s forwards;
+}
+
+#svg_12{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 6s linear 6s forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
